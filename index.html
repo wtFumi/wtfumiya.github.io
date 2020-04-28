@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>ジャンケン</title>
+</head>
+
+<body>
+  <header>
+    <h1>ジャンケンで勝負をしよう！</h1>
+  </header>
+
+  <div class="score-board">
+    <div id="user-label" class="badge">user</div>
+    <div id="computer-label" class="badge">comp</div>
+    <span id="user-score">0</span>:<span id="computer-score">0</span>
+  </div>
+
+  <div class="result">
+    <p>パーを出して、グーに勝った! あなたの勝ちです！！</p>
+  </div>
+
+  <div class="choices">
+    <div class="choice" id="r">
+      <i class="fas fa-hand-rock fa-6x"></i>
+    </div>
+    <div class="choice" id="p">
+      <i class="fas fa-hand-paper fa-6x"></i>
+    </div>
+    <div class="choice" id="s">
+      <i class="fas fa-hand-scissors fa-6x"></i>
+    </div>
+  </div>
+
+  <p id="action-message">
+    グー、パー、チョキ、  何を出しますか??
+  </p>
+
+  <script src="app.js" charset="utf-8">
+  </script>
+</body>
+</html>
